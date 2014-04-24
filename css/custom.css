@@ -296,6 +296,7 @@ div.sideban.right img {margin: 0;}
 .product_detail .headline h1 {float: left; clear: none; font: normal 24px/28px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; padding: 1.2% 1.2% 1.2% 2%; margin: 0;}
 .product_detail .headline .available_colors {float: right; font: 400 1.0769em/1.2857em 'Open Sans', sans-serif; color: #301106; text-transform: uppercase; background: url(../img/bg_available_colors.png) 0 0 repeat-x; border-radius: 15px; box-shadow: 0 -4px 4px -4px black; padding: 4px 4px 4px 15px; margin-top: 8px;}
 .product_detail .headline .available_colors span {float: right; margin: 1px 0 0 14px;}
+.product_detail .headline .available_colors span:first-child {float: left; margin-left: 0;}
 .product_detail .headline .available_colors a {display: block; float: left; width: 100%; max-width: 14px; background: #f0ebd6; box-shadow: 0 -2px 2px -2px black; padding: 4px 6px 4px 2px; margin-left: -4px;}
 .product_detail .headline .available_colors a:first-child {border-radius: 11px 0 0 11px; padding-left: 4px;}
 .product_detail .headline .available_colors a:last-child {border-radius: 0 11px 11px 0; padding-right: 4px;}
