@@ -288,8 +288,10 @@ div.sideban.right img {margin: 0;}
 .product_detail a.quote {display: block; font: 700 19px/23px 'Open Sans', sans-serif; color: #f0ebd6; text-align: center; text-transform: uppercase; text-decoration: none; background: url(../img/bg_product_quote.png) 0 0 repeat-y; box-shadow: 3px 3px 6px -3px black; padding: 7px 8px;}
 .product_detail a.quote span {display: block; background: #005941; border: 1px solid #78ad96; box-shadow: inset 2px 2px 2px -2px black, 2px 2px 2px -2px black; padding: 10px;}
 .product_detail .thumbs {padding: 4.5% 4%;}
-.product_detail .thumbs a {display: block; float: left; width: 23%; margin: 1%;}
+.product_detail .thumbs a {position: relative; display: block; float: left; width: 23%; margin: 1%;}
 .product_detail .thumbs a img {max-width: 100%; height: auto;}
+.product_detail .thumbs a i {position: absolute; bottom: 1px; right: 1px; display: none; width: 24%; height: 24%; background: url(../img/bg_product_thumb_active.png) right bottom no-repeat; background-size: contain;}
+.product_detail .thumbs a.active i {display: block;}
 .product_detail .headline {min-height: 10px; background: url(../img/bg_product_headline.png) 0 0 repeat-y; padding: 1.598% 1.598% 1%; margin: 0 0 3px;}
 .product_detail .headline a.back {display: block; float: left; width: 5.424%; min-width: 34px;}
 .product_detail .headline a.back img {max-width: 100%; height: auto;}
