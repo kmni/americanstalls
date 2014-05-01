@@ -1,5 +1,6 @@
 // Place any jQuery/helper plugins in here.
 jQuery.fn.center = function () { this.css("position","absolute"); this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px"); this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px"); return this; }
+jQuery.fn.preload = function() { this.each(function(){ var name = this; $('<img src="'+this+'" />').load(function(){/*console.log(name+' loaded');*/}); }); }
 
 var hju	= {
 	pageOverlay:		$('<a class="page_overlay" href="" title="Close it"></a>'),
@@ -279,18 +280,31 @@ var hju	= {
 		if ($('div.imagebox').length > 0 && $('div.thumbs a').length > 0)
 		{
 			var imagebox	= $('div.imagebox'),
-				links		= $('div.thumbs a');
+				links		= $('div.thumbs a'),
+				urls		= Array();
 
+			// preload images
+			urls.push('/img/ajax-loader-small.gif');
+			links.each(function(){
+				var link	= $(this),
+					href	= link.attr('href');
+				urls.push(href);
+			});
+			$(urls).preload();
+			
 			links.on('click', function(){
 				var link	= $(this),
 					href	= link.attr('href');
 				links.removeClass('active');
-				link.addClass('active');
+				link.addClass('loading');
 				if (imagebox.find('img').length > 0)
 				{
 					var img	= imagebox.find('img');
-					img.fadeOut(300, function(){
-						img.attr('src', href).fadeIn(300);
+					$('<img src="'+href+'"/>').load(function(){
+						link.removeClass('loading').addClass('active');
+						img.fadeOut(300, function(){
+							img.attr('src', href).fadeIn(300);
+						});
 					});
 				}
 				return false;
