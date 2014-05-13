@@ -18,7 +18,7 @@
     <!-- TemplateEndEditable -->
 </head>
 
-<body class="homepage" data-synchronize-columns="false">
+<body class="about_us" data-synchronize-columns="false">
 
     <div id="header">
         <div class="container">
@@ -120,50 +120,33 @@
 
     <div id="content">
         <div class="container">
-        	<div class="sideban"><a href="" title=""><img src="../img/banners/banner-01-120x749.jpg"></a></div>
-        	<div class="sideban right"><a href="" title=""><img src="../img/banners/banner-02-120x749.jpg"></a></div>
+        	<div class="sideban">
+        		<a href="" title=""><img src="../img/banners/banner-01-120x749.jpg"></a>
+        	</div>
+        	<div class="sideban right">
+        		<a href="" title=""><img src="../img/banners/banner-02-120x749.jpg"></a>
+        	</div>
 			<div class="contentcol">
-            	<div id="home_carousel_container">
-                    <div id="home_carousel" class="carousel slide carousel-fade" data-interval="3000">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner"><!-- TemplateBeginEditable name="carousel" -->
-                          <div class="active item"> <img src="../img/slideshow/1.jpg" alt="">
-                            <div class="info">
-                              <h2>Classic Show Series</h2>
-                              <p>Green powder coated metal western stall</p>
-                              <img src="../img/s.gif"> </div>
-                          </div>
-                          <div class="item"> <img src="../img/slideshow/2.jpg" alt="">
-                            <div class="info">
-                              <h2>Elite Show Series</h2>
-                              <p>Green powder coated metal western stall</p>
-                              <img src="../img/s.gif"> </div>
-                          </div>
-                          <div class="item"> <img src="../img/slideshow/3.jpg" alt="">
-                            <div class="info">
-                              <h2>Western series</h2>
-                              <p>Green powder coated metal western stall</p>
-                              <img src="../img/s.gif"> </div>
-                          </div>
-                          <div class="item"> <img src="../img/slideshow/4.jpg" alt="">
-                            <div class="info">
-                              <h2>Prestige series</h2>
-                              <p>Green powder coated metal western stall</p>
-                              <img src="../img/s.gif"> </div>
-                          </div>
-                        <!-- TemplateEndEditable --></div> 
-                        <!-- .carousel-inner -->
-                        <!-- Carousel nav -->
-                        <a class="carousel-control left" href="#home_carousel" data-slide="prev"></a>
-                        <a class="carousel-control right" href="#home_carousel" data-slide="next"></a>
-                    </div>
-                </div> <!--// #home_carousel_container -->
-
-                <div class="home_text">
-                	<h1><!-- TemplateBeginEditable name="tagline" -->Why settle for anything less than American Stall?<!-- TemplateEndEditable --></h1>
-                	<!-- TemplateBeginEditable name="home-text" -->
-                	<p>American Stalls produces stalls which you will be proud to showcase. Contact us today to receive a free brochure and personalized guidance to help build the finest product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisl erat, pharetra a fermentum sed, consequat vel magna. Proin lectus eros, porta eget posuere ac, egestas vitae tortor. Aliquam ac turpis ante. Nunc volutpat velit id tristique hendrerit. Vivamus iaculis diam dolor, quis sodales libero pellentesque dictum. Nam mollis tortor nisl, sed semper nisi blandit at. Sed eget scelerisque libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus auctor nibh nec vehicula ornare. Mauris ullamcorper fermentum quam, et adipiscing elit vehicula at. Praesent in tellus nec erat malesuada dapibus. Aliquam in placerat nibh.</p>
-                	<!-- TemplateEndEditable --></div> <!--// .home_text -->
+            	
+            	<div class="headline">
+                    <h1><!-- TemplateBeginEditable name="headline" -->Our pledge ‘q.s.s’<!-- TemplateEndEditable --></h1>
+                </div>
+                <div class="text">
+                	<div class="wrap">
+	                	<div class="col"><!-- TemplateBeginEditable name="left-col" -->
+	                	  <h2>Quality</h2>
+                          <p>We start the process by using only the finest raw materials available. The steel is pregalvanized, either hot-dipped or electrogalvanized and then powder coated. Our stalls are thouroughly inspected at multiple stages to ensure fully welded, smooth corners and edges. Our attention to detail is what sets us apart. It is what produces stunning American Stalls.</p>
+                          <div class="line"></div>
+                          <h2>Safety</h2>
+                          <p>Your horses’ safety is our number one priority. Our stalls have smooth corners and edges that help prevent injuries. Our recessed latches remain safely tucked in and hidden from the playful ones. The grills are evenly spaced to prevent horses from getting stuck or cast. At American Stalls, we strive to produce products with the safety of your horse in mind.</p>
+                          <div class="line"></div>
+                          <h2>Satisfaction</h2>
+                          <p>We want to provide you with stalls that you will be proud to showcase. At American Stalls, we strive to build the stalls of your dream within your personal budget. Our quality control and safety measures further ensure your satisfaction. Smooth lines, warm color selections, and diligent finishes are just the beginning at American Stalls. We aim to provide with you a personalized, step by step consultation; from design questions, color selection, technical drawings; to production and delivery, we are here for you.</p>
+	                	<!-- TemplateEndEditable --></div>
+	                	<div class="col right"><!-- TemplateBeginEditable name="right-col" --><img src="../img/about-us/about-us-415x596.jpg" alt="Quality, Safety, Satisfaction"><!-- TemplateEndEditable --></div>
+                		<div class="cleaner"></div>
+                	</div> <!--// .wrap -->
+                </div> <!--// .text -->
                 
             </div> <!--// .contentcol -->
         </div> <!--// .container -->

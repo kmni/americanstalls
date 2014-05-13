@@ -48,24 +48,18 @@
 					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./racetrack-doors.html">- Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./inventory.html">Current Inventory</option>
 					<option value="./classic-show-series.html">- Classic Show Series</option>
 					<option value="./elite-show-series.html">- Elite Show Series</option>
 					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
 					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
-					<option value="./gallery.html">Gallery</option>
-					<option value="./portfolio.html">- Portfolio</option>
-					<option value="./videos.html">- Videos</option>
-					<option value="./social-media.html">Social Media</option>
-					<option value="./newsletters.html">- Newsletters</option>
-					<option value="./facebook-feed.html">- Facebook Feed</option>
-					<option value="./twitter.html">- Twitter</option>
-					<option value="./instagram.html">- Instagram</option>
-					<option value="./blog.html">- Blog</option>
+					<option value="./portfolio.html">Portfolio</option>
+					<option value="./videos.html">Videos</option>
+					<option value="./newsletters.html">Newsletters</option>
+					<option value="./facebook-feed.html">Facebook Feed</option>
+					<option value="./twitter.html">Twitter</option>
+					<option value="./instagram.html">Instagram</option>
+					<option value="./blog.html">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
             </div>
@@ -91,12 +85,6 @@
 				</li>
 				<li>
 					<a href="../color-options.html" title="Color options">Color options</a>
-					<ul>
-						<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-						<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-						<li><a href="../western-series.html" title="Western Series">Western Series</a></li>
-						<li><a href="../prestige-series.html" title="Prestige Series">Prestige Series</a></li>
-					</ul>
 				</li>
                 <li>
                 	<a href="../current-inventory.html" title="Current inventory">Current inventory</a>
@@ -108,14 +96,14 @@
 					</ul>
                 </li>
                 <li>
-                	<a href="../gallery.html" title="Gallery">Gallery</a>
+                	<span>Gallery</span>
                 	<ul>
 						<li><a href="../portfolio.html" title="Portfolio">Portfolio</a></li>
 						<li><a href="../videos.html" title="Videos">Videos</a></li>
 					</ul>
                 </li>
                 <li>
-                	<a href="../social-media.html" title="Social media">Social media</a>
+                	<span>Social media</span>
                 	<ul>
 						<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
 						<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
@@ -141,25 +129,46 @@
 			<div class="contentcol">
             	
             	<div class="headline">
-                    <h1>Our pledge ‘q.s.s’</h1>
+                    <h1><!-- TemplateBeginEditable name="headline" -->Testimonials<!-- TemplateEndEditable --></h1>
                 </div>
-                <div class="text">
-                	<div class="wrap">
-	                	<div class="col">
-	                		<h2>Quality</h2>
-	                		<p>We start the process by using only the finest raw materials available. The steel is pregalvanized, either hot-dipped or electrogalvanized and then powder coated. Our stalls are thouroughly inspected at multiple stages to ensure fully welded, smooth corners and edges. Our attention to detail is what sets us apart. It is what produces stunning American Stalls.</p>
-	                		<div class="line"></div>
-	                		<h2>Safety</h2>
-	                		<p>Your horses’ safety is our number one priority. Our stalls have smooth corners and edges that help prevent injuries. Our recessed latches remain safely tucked in and hidden from the playful ones. The grills are evenly spaced to prevent horses from getting stuck or cast. At American Stalls, we strive to produce products with the safety of your horse in mind.</p>
-	                		<div class="line"></div>
-	                		<h2>Satisfaction</h2>
-	                		<p>We want to provide you with stalls that you will be proud to showcase. At American Stalls, we strive to build the stalls of your dream within your personal budget. Our quality control and safety measures further ensure your satisfaction. Smooth lines, warm color selections, and diligent finishes are just the beginning at American Stalls. We aim to provide with you a personalized, step by step consultation; from design questions, color selection, technical drawings; to production and delivery, we are here for you.</p>
-	                	</div>
-	                	<div class="col right">
-	                		<img src="../img/about-us/about-us-415x596.jpg" alt="Quality, Safety, Satisfaction">
-	                	</div>
+                <div class="text singlecol">
+                	<div class="container" style="margin:0 auto;">
+                	<!-- TemplateBeginEditable name="col" -->
+	                	 	
+	                	 <div class="row-fluid graphicdescript">
+  							<div class="span5 graphic"><img src="http://americanstalls.com/images/eric.jpg" alt="Erie County Fairgrounds"></div>
+  							<div class="span7 graphicdescription">
+  							<h2>Erie County Fairgrounds</h2>
+  							<h3>Hamburg, NY</h3>
+  							<p>"Working with American Stalls was a pleasure. The representatives were extremely cordial and responsive and attentive to our needs. They assisted us with all aspects of the transaction both professionally and thoroughly. Any inquiries made were met with a more than timely response.<p>
+
+							<p>The portable stalls assemble quickly, go together easily and have withstood a full year of shows with no visible wear and tear – a true testament to their durability.</p>
+
+							<p>The stalls are both attractive and durable as has been proven by the number of horses that have been in and out of the stalls.</p>
+
+							<p>Their web site contains loads of pictures, and the information is very representative of the product; a good quality product with good customer service"</p>
+  							</div>
+  						</div>
+
+  						<div class="row-fluid graphicdescript">
+  							<div class="span5 graphic"><img src="http://americanstalls.com/images/eric.jpg" alt="Erie County Fairgrounds"></div>
+  							<div class="span7 graphicdescription">
+  							<h2>Erie County Fairgrounds</h2>
+  							<h3>Hamburg, NY</h3>
+  							<p>"Working with American Stalls was a pleasure. The representatives were extremely cordial and responsive and attentive to our needs. They assisted us with all aspects of the transaction both professionally and thoroughly. Any inquiries made were met with a more than timely response.<p>
+
+							<p>The portable stalls assemble quickly, go together easily and have withstood a full year of shows with no visible wear and tear – a true testament to their durability.</p>
+
+							<p>The stalls are both attractive and durable as has been proven by the number of horses that have been in and out of the stalls.</p>
+
+							<p>Their web site contains loads of pictures, and the information is very representative of the product; a good quality product with good customer service"</p>
+  							</div>
+  						</div>
+						
+
+	                	<!-- TemplateEndEditable -->
+                		</div>
                 		<div class="cleaner"></div>
-                	</div> <!--// .wrap -->
                 </div> <!--// .text -->
                 
             </div> <!--// .contentcol -->
@@ -199,24 +208,18 @@
 					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./racetrack-doors.html">- Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./inventory.html">Current Inventory</option>
 					<option value="./classic-show-series.html">- Classic Show Series</option>
 					<option value="./elite-show-series.html">- Elite Show Series</option>
 					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
 					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
-					<option value="./gallery.html">Gallery</option>
-					<option value="./portfolio.html">- Portfolio</option>
-					<option value="./videos.html">- Videos</option>
-					<option value="./social-media.html">Social Media</option>
-					<option value="./newsletters.html">- Newsletters</option>
-					<option value="./facebook-feed.html">- Facebook Feed</option>
-					<option value="./twitter.html">- Twitter</option>
-					<option value="./instagram.html">- Instagram</option>
-					<option value="./blog.html">- Blog</option>
+					<option value="./portfolio.html">Portfolio</option>
+					<option value="./videos.html">Videos</option>
+					<option value="./newsletters.html">Newsletters</option>
+					<option value="./facebook-feed.html">Facebook Feed</option>
+					<option value="./twitter.html">Twitter</option>
+					<option value="./instagram.html">Instagram</option>
+					<option value="./blog.html">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
                 <ul class="col1">
@@ -229,7 +232,7 @@
 						</ul>
 	                </li>
 	                <li>
-	                	<a href="../gallery.html" title="Gallery">Gallery</a>
+	                	<span>Gallery</span>
 	                	<ul>
 							<li><a href="../portfolio.html" title="Portfolio">Portfolio</a></li>
 							<li><a href="../videos.html" title="Videos">Videos</a></li>
@@ -273,7 +276,7 @@
 				</ul>
 				<ul class="col5">
 	                <li>
-	                	<a href="../social-media.html" title="Social media">Social media</a>
+	                	<span>Social media</span>
 	                	<ul>
 							<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
 							<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
@@ -288,7 +291,7 @@
             	<img src="../img/logo-american-stalls-104x90.png" alt="American Stalls">
                 <p>&copy; 2014, All Rights Reserved By American Stalls</p>
             </div> <!--// .copyright -->
-            <div class="author">designed by <a href="http://www.kmni.com" title="website designed by Knight Media Networks Inc." target="_blank">kmni.com</a> 2014</div>
+            <div class="author">designed by <a href="http://www.kmni.com" title="website designed by Knight Media Networks Inc." target="_blank">kmni.com</a></div>
         </div>
     </div>
 

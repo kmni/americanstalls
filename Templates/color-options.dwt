@@ -51,24 +51,18 @@
 					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./racetrack-doors.html">- Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./inventory.html">Current Inventory</option>
 					<option value="./classic-show-series.html">- Classic Show Series</option>
 					<option value="./elite-show-series.html">- Elite Show Series</option>
 					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
 					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
-					<option value="./gallery.html">Gallery</option>
-					<option value="./portfolio.html">- Portfolio</option>
-					<option value="./videos.html">- Videos</option>
-					<option value="./social-media.html">Social Media</option>
-					<option value="./newsletters.html">- Newsletters</option>
-					<option value="./facebook-feed.html">- Facebook Feed</option>
-					<option value="./twitter.html">- Twitter</option>
-					<option value="./instagram.html">- Instagram</option>
-					<option value="./blog.html">- Blog</option>
+					<option value="./portfolio.html">Portfolio</option>
+					<option value="./videos.html">Videos</option>
+					<option value="./newsletters.html">Newsletters</option>
+					<option value="./facebook-feed.html">Facebook Feed</option>
+					<option value="./twitter.html">Twitter</option>
+					<option value="./instagram.html">Instagram</option>
+					<option value="./blog.html">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
             </div>
@@ -94,12 +88,6 @@
 				</li>
 				<li>
 					<a href="../color-options.html" title="Color options">Color options</a>
-					<ul>
-						<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-						<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-						<li><a href="../western-series.html" title="Western Series">Western Series</a></li>
-						<li><a href="../prestige-series.html" title="Prestige Series">Prestige Series</a></li>
-					</ul>
 				</li>
                 <li>
                 	<a href="../current-inventory.html" title="Current inventory">Current inventory</a>
@@ -111,14 +99,14 @@
 					</ul>
                 </li>
                 <li>
-                	<a href="../gallery.html" title="Gallery">Gallery</a>
+                	<span>Gallery</span>
                 	<ul>
 						<li><a href="../portfolio.html" title="Portfolio">Portfolio</a></li>
 						<li><a href="../videos.html" title="Videos">Videos</a></li>
 					</ul>
                 </li>
                 <li>
-                	<a href="../social-media.html" title="Social media">Social media</a>
+                	<span>Social media</span>
                 	<ul>
 						<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
 						<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
@@ -150,35 +138,15 @@
                 <div class="text">
                 	<h2>Classic &amp; Signature Show Series</h2>
                 	<h3>Powder Coat</h3>
-                	<div class="options_wrap clearfix">
-                		<a href="#2" title=""><img src="../img/color-options/raven-black.png" alt="Raven Black"></a>
-                		<a href="#" title=""><img src="../img/color-options/mustard.png" alt="Mustard"></a>
-                	</div>
-                	<br>
+                	<div class="options_wrap clearfix"><!-- TemplateBeginEditable name="powder-coat-colors" --><a href="#2" title=""><img src="../img/color-options/raven-black.png" alt="Raven Black"></a> <a href="#" title=""><img src="../img/color-options/mustard.png" alt="Mustard"></a><!-- TemplateEndEditable --></div>
+               	  <br>
                 	<h3>Vinyl Colors</h3>
-                	<div class="options_wrap clearfix">
-                		<a href="#2" title=""><img src="../img/color-options/blue.png" alt="Blue"></a>
-                		<a href="#2" title=""><img src="../img/color-options/makeup.png" alt="Make-up"></a>
-                		<a href="#1" title=""><img src="../img/color-options/royal-burgundy.png" alt="Royal Burgundy"></a>
-                		<a href="#2" title=""><img src="../img/color-options/night-sky.png" alt="Night Sky"></a>
-                		<a href="#3" title=""><img src="../img/color-options/dartmouth-green.png" alt="Dartmouth Green"></a>
-                	</div>
-                	<br><br>
+                	<div class="options_wrap clearfix"><!-- TemplateBeginEditable name="vinyl-colors" --><a href="#2" title=""><img src="../img/color-options/blue.png" alt="Blue"></a> <a href="#2" title=""><img src="../img/color-options/makeup.png" alt="Make-up"></a> <a href="#1" title=""><img src="../img/color-options/royal-burgundy.png" alt="Royal Burgundy"></a> <a href="#2" title=""><img src="../img/color-options/night-sky.png" alt="Night Sky"></a> <a href="#3" title=""><img src="../img/color-options/dartmouth-green.png" alt="Dartmouth Green"></a><!-- TemplateEndEditable --></div>
+               	  <br><br>
                 	<h2>Western &amp; Prestige Series</h2>
-                	<div class="options_wrap clearfix">
-                		<a href="#2" title=""><img src="../img/color-options/raven-black.png" alt="Raven Black"></a>
-                		<a href="#4" title=""><img src="../img/color-options/vermillion-red.png" alt="Vermillion Red"></a>
-                		<a href="#1" title=""><img src="../img/color-options/royal-burgundy.png" alt="Royal Burgundy"></a>
-                		<a href="#2" title=""><img src="../img/color-options/night-sky.png" alt="Night Sky"></a>
-                		<a href="#3" title=""><img src="../img/color-options/dartmouth-green.png" alt="Dartmouth Green"></a>
-                	</div>
+                	<div class="options_wrap clearfix"><!-- TemplateBeginEditable name="western-prestige-colors" --><a href="#2" title=""><img src="../img/color-options/raven-black.png" alt="Raven Black"></a> <a href="#4" title=""><img src="../img/color-options/vermillion-red.png" alt="Vermillion Red"></a> <a href="#1" title=""><img src="../img/color-options/royal-burgundy.png" alt="Royal Burgundy"></a> <a href="#2" title=""><img src="../img/color-options/night-sky.png" alt="Night Sky"></a> <a href="#3" title=""><img src="../img/color-options/dartmouth-green.png" alt="Dartmouth Green"></a><!-- TemplateEndEditable --></div>
                 	<br>
-                </div> <!--// .text -->
-				<img class="ribbon_1" src="../img/color-options/ribbon-royal-burgundy.png" alt="Royal Burgundy ribbon">
-				<img class="ribbon_2 noscreen" src="../img/color-options/ribbon-raven-black.png" alt="Raven Black ribbon">
-				<img class="ribbon_3 noscreen" src="../img/color-options/ribbon-dartmouth-green.png" alt="Dartmouth Green ribbon">
-				<img class="ribbon_4 noscreen" src="../img/color-options/ribbon-vermillion-red.png" alt="Vermillion Red ribbon">
-            </div> <!--// .contentcol -->
+                </div> <!--// .text --><!-- TemplateBeginEditable name="ribbons" --><img class="ribbon_1" src="../img/color-options/ribbon-royal-burgundy.png" alt="Royal Burgundy ribbon"> <img class="ribbon_2 noscreen" src="../img/color-options/ribbon-raven-black.png" alt="Raven Black ribbon"> <img class="ribbon_3 noscreen" src="../img/color-options/ribbon-dartmouth-green.png" alt="Dartmouth Green ribbon"> <img class="ribbon_4 noscreen" src="../img/color-options/ribbon-vermillion-red.png" alt="Vermillion Red ribbon"><!-- TemplateEndEditable --></div> <!--// .contentcol -->
         </div> <!--// .container -->
     </div> <!--// #content -->
 
@@ -215,24 +183,18 @@
 					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./racetrack-doors.html">- Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
 					<option value="./inventory.html">Current Inventory</option>
 					<option value="./classic-show-series.html">- Classic Show Series</option>
 					<option value="./elite-show-series.html">- Elite Show Series</option>
 					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
 					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
-					<option value="./gallery.html">Gallery</option>
-					<option value="./portfolio.html">- Portfolio</option>
-					<option value="./videos.html">- Videos</option>
-					<option value="./social-media.html">Social Media</option>
-					<option value="./newsletters.html">- Newsletters</option>
-					<option value="./facebook-feed.html">- Facebook Feed</option>
-					<option value="./twitter.html">- Twitter</option>
-					<option value="./instagram.html">- Instagram</option>
-					<option value="./blog.html">- Blog</option>
+					<option value="./portfolio.html">Portfolio</option>
+					<option value="./videos.html">Videos</option>
+					<option value="./newsletters.html">Newsletters</option>
+					<option value="./facebook-feed.html">Facebook Feed</option>
+					<option value="./twitter.html">Twitter</option>
+					<option value="./instagram.html">Instagram</option>
+					<option value="./blog.html">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
                 <ul class="col1">
@@ -245,7 +207,7 @@
 						</ul>
 	                </li>
 	                <li>
-	                	<a href="../gallery.html" title="Gallery">Gallery</a>
+	                	<span>Gallery</span>
 	                	<ul>
 							<li><a href="../portfolio.html" title="Portfolio">Portfolio</a></li>
 							<li><a href="../videos.html" title="Videos">Videos</a></li>
@@ -289,7 +251,7 @@
 				</ul>
 				<ul class="col5">
 	                <li>
-	                	<a href="../social-media.html" title="Social media">Social media</a>
+	                	<span>Social media</span>
 	                	<ul>
 							<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
 							<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
@@ -304,7 +266,7 @@
             	<img src="../img/logo-american-stalls-104x90.png" alt="American Stalls">
                 <p>&copy; 2014, All Rights Reserved By American Stalls</p>
             </div> <!--// .copyright -->
-            <div class="author">designed by <a href="http://www.kmni.com" title="website designed by Knight Media Networks Inc." target="_blank">kmni.com</a> 2014</div>
+            <div class="author">designed by <a href="http://www.kmni.com" title="website designed by Knight Media Networks Inc." target="_blank">kmni.com</a></div>
         </div>
     </div>
 
