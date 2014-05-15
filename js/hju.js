@@ -10,11 +10,12 @@ var hju	= {
 		if ($('*[rel="dialog_box"]').length > 0)
 		{
 			$(document).on('click', '*[rel="dialog_box"]', function(e){
-				var a		= $(this);
-				var url		= a.attr('href');
-				var source	= a.attr('data-source') || 'href';
-				var title	= a.attr('title') ? a.attr('title') : false;
-				var content	= '';
+				var a		= $(this),
+					rel		= a.attr('rel') || false,
+					url		= a.attr('href'),
+					source	= a.attr('data-source') || 'href',
+					title	= a.attr('title') ? a.attr('title') : false,
+					content	= '';
 
 				if (source == 'href')
 					$.ajax({type: 'POST', url: url, data: {}}).done(function(data){$('#dialog_box .inside').html(data);hju.dialogBox.center();}).fail(function(){$('#dialog_box .inside').html('<div class="error">Loading failed.<br> Try it later</div>');});
@@ -135,7 +136,11 @@ var hju	= {
 	    }
 	},
 	lightbox: function(){
-	    $('.colorbox').colorbox({rel:'colorbox', current: '{current} of {total}'});
+	    $('.colorbox').each(function(){
+	    	var a	= $(this),
+	    		rel	= a.attr('rel') || false;
+	    	a.colorbox({rel:rel, current: '{current} / {total}'});
+	    });
     },
     galleryPagination:	function(parent, item_selector){
     	var itemsCount		= $(parent + ' ' + item_selector).size();
@@ -295,11 +300,11 @@ var hju	= {
 			links.on('click', function(){
 				var link	= $(this),
 					href	= link.attr('href');
-				links.removeClass('active');
-				link.addClass('loading');
 				if (imagebox.find('img').length > 0)
 				{
 					var img	= imagebox.find('img');
+					links.removeClass('active');
+					link.addClass('loading');
 					$('<img src="'+href+'"/>').load(function(){
 						link.removeClass('loading').addClass('active');
 						img.fadeOut(300, function(){

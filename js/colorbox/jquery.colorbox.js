@@ -303,20 +303,21 @@
 			makeSettings();
 			
 			$related = $(element);
-			
+
 			index = 0;
 			
 			if (settings.rel !== 'nofollow') {
+
 				$related = $('.' + boxElement).filter(function () {
 					var data = $.data(this, colorbox),
 						relRelated;
-
 					if (data) {
 						relRelated =  $(this).data('rel') || data.rel || this.rel;
 					}
-					
+
 					return (relRelated === settings.rel);
 				});
+				// console.log($related);
 				index = $related.index(element);
 				
 				// Check direct calls to Colorbox.

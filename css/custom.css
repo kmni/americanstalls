@@ -482,6 +482,7 @@ div.sideban.right img {margin: 0;}
 .youtube object,
 .youtube embed {width: 100%; max-width: 640px;}
 
+.secret_box {display: none;}
 
 #dialog_box {position: absolute; z-index: 1000; max-width: 94%; /* padding-top: 11px;*/}
 #dialog_box .inside {min-width: 50px; min-height: 50px; padding: 0;}
