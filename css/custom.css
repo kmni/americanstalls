@@ -152,6 +152,13 @@ div.sideban.right img {margin: 0;}
 .text .col p {font: normal 16px/20px Times, sans-serif; color: #f0ebd6; text-align: center; padding: 0 20px; margin: 0;}
 .text .col .line {height: 3px; background: url(../img/about-us/bg_line_about.png) 0 0 repeat-x; margin: 9px 6px 10px;}
 
+.city-list {margin: 0 auto;}
+.city-list .state:last-child:nth-child(odd) {display:block;}
+.city-list .state {width:49.5%; display:inline-block;}
+.city-list .state h2 {font: normal 20px/18px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; margin-bottom: 2px; padding:10px;}
+.city-list .state ul{text-align:left; margin-left:10px;}
+.city-list .state ul li{font:normal 16px/20px Times, sans-serif; list-style:none;}
+
 .singlecol {text-align:left;}
 .singlecol h2 {font: normal 24px/28px Times, sans-serif; color: #f0ebd6; text-align: center; text-transform: uppercase; padding: 0 20px; margin: 0 0 2px;}
 .singlecol p {font: normal 16px/20px Times, sans-serif; color: #f0ebd6; text-align: center; padding: 0 20px; margin: 0;}
@@ -182,6 +189,7 @@ div.sideban.right img {margin: 0;}
 }
 @media (max-width: 770px) {
 	.text .col.right {width: 47.55%;}
+	.city-list .state {width:100%; display:block; margin:0 auto;}
 }
 @media (max-width: 725px) {
 	.text .col.right {width: 47.45%;}

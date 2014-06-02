@@ -21,7 +21,7 @@
 <body class="gallery" data-synchronize-columns="false">
 
     <div id="header">
-        <div class="container">
+       <div class="container">
             <div class="phone"><img src="../img/icon-phone-41x41.png"> (855) 95-STALL (78255)</div>
             <div id="logo">
                 <a href="/" title=""><img src="../img/s.gif" alt="" /></a>
@@ -130,16 +130,16 @@
                 </div>
 
                 <div class="text">
-                	<div id="map_data"><!-- InstanceBeginEditable name="map" --><img width="754" height="486" src="../img/gallery-map-754x486.png" alt="Map" usemap="#map_area" /><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="locations" -->
+                	<div id="map_data"><!-- TemplateBeginEditable name="map" --><img width="754" height="486" src="../img/gallery-map-754x486.png" alt="Map" usemap="#map_area" /><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="locations" -->
                     <map name="map_area" id="map_area">
                       <area href="../img/gallery/stalls/stall-01x453x293.jpg" title="Groesbeck, Texas" coords="365,356,379,356,379,369,365,369" shape="poly" class="map_area_1 colorbox" rel="groesbeck" data-source="image" />
                       <area href="../img/gallery/stalls/stall-01x453x293.jpg" title="Another Place" coords="626,203,640,203,640,216,626,216" shape="poly" class="map_area_1 colorbox" rel="another_place" data-source="image" />
                     </map>
-                	<!-- InstanceEndEditable --></div>
+                	<!-- TemplateEndEditable --></div>
 
                 	<!-- group of images for every location on the map goes here -->
                 	<div class="secret_box">
-                		<!-- InstanceBeginEditable name="group of images" -->
+                		<!-- TemplateBeginEditable name="group of images" -->
 						<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Groesbeck, Texas" class="colorbox" rel="groesbeck">Groesbeck, Texas 2</a>
                 		<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Groesbeck, Texas" class="colorbox" rel="groesbeck">Groesbeck, Texas 3</a>
                 		<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Groesbeck, Texas" class="colorbox" rel="groesbeck">Groesbeck, Texas 4</a>
@@ -153,8 +153,43 @@
                 		<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Another Place" class="colorbox" rel="another_place">Another Place 5</a>
                 		<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Another Place" class="colorbox" rel="another_place">Another Place 6</a>
                 		<a href="../img/gallery/stalls/stall-01x453x293.jpg" title="Another Place" class="colorbox" rel="another_place">Another Place 7</a>
-                		<!-- InstanceEndEditable -->
+                		<!-- TemplateEndEditable -->
                 	</div> <!--// .secret_box -->
+                	<div class="city-list">
+                	<!-- TemplateBeginEditable name="portfolio-list" -->
+                	<div class="state">
+                		<h2>Alabama</h2>
+                			<ul>
+                				<li>Compton Country Farms &mdash; Blanch, NC</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                			</ul>
+                	</div>
+                	
+                	<div class="state">
+                		<h2>Alabama</h2>
+                			<ul>
+                				<li>Compton Country Farms &mdash; Blanch, NC</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                				<li>George Carden International Circus &mdash; Springfield, MO</li>
+                			</ul>
+                	</div>
+                	<!-- TemplateEndEditable -->	
+                </div>
                 </div> <!--// .text -->
             </div> <!--// .contentcol -->
         </div> <!--// .container -->
