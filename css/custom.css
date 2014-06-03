@@ -156,8 +156,10 @@ div.sideban.right img {margin: 0;}
 .city-list .state:last-child:nth-child(odd) {display:block;}
 .city-list .state {width:49.5%; display:inline-block;}
 .city-list .state h2 {font: normal 20px/18px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; margin-bottom: 2px; padding:10px;}
-.city-list .state ul{text-align:left; margin-left:10px;}
-.city-list .state ul li{font:normal 16px/20px Times, sans-serif; list-style:none;}
+.city-list .state ul {text-align:left; margin-left:10px;}
+.city-list .state ul li {font:normal 16px/20px Times, sans-serif; list-style:none;}
+.city-list .state ul li a {color: #F0EBD6; text-decoration: none;}
+.city-list .state ul li a:hover {text-decoration: underline;}
 
 .singlecol {text-align:left;}
 .singlecol h2 {font: normal 24px/28px Times, sans-serif; color: #f0ebd6; text-align: center; text-transform: uppercase; padding: 0 20px; margin: 0 0 2px;}
