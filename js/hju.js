@@ -136,12 +136,43 @@ var hju	= {
 	    }
 	},
 	lightbox: function(){
-	    $('.colorbox').each(function(){
-	    	var a	= $(this),
-	    		rel	= a.attr('rel') || false;
-	    	a.colorbox({rel:rel, current: '{current} / {total}'});
-	    });
-    },
+		if ($('.colorbox').length > 0)
+		{
+			var rels	= [];
+			$('.colorbox').each(function(){
+				var a	= $(this),
+					rel	= a.attr('rel') || false;
+				// store rel attributes
+				if (rel)
+				{
+					if ($.inArray(rel, rels) == -1)
+						rels.push(rel);
+				}
+				// init colorbox for links without rel
+				else
+					a.colorbox({current: '{current} / {total}'});
+			});
+			// links with rel attribute found
+			if (rels.length > 0)
+			{
+				// console.log(rels);
+				$.each(rels, function(index, rel){
+					var urls	= [];
+					$('[rel="'+rel+'"]').each(function(){
+						// console.log('links for rel="'+rel+'"');
+						var a	= $(this),
+							url	= a.attr('href');
+						if (url != '#' && url != '' && $.inArray(url, urls) == -1)
+						{
+							urls.push(url);
+							// console.log(url);
+							a.colorbox({rel:rel, current: '{current} / {total}'});
+						}
+					});
+				});
+			}
+		}
+	},
     galleryPagination:	function(parent, item_selector){
     	var itemsCount		= $(parent + ' ' + item_selector).size();
 		var itemsPerPage	= $(parent).attr('data-items-per-page') ? $(parent).attr('data-items-per-page') : 6;
