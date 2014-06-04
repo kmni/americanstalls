@@ -142,35 +142,36 @@ var hju	= {
 			$('.colorbox').each(function(){
 				var a	= $(this),
 					rel	= a.attr('rel') || false;
-				// store rel attributes
-				if (rel)
-				{
-					if ($.inArray(rel, rels) == -1)
-						rels.push(rel);
-				}
-				// init colorbox for links without rel
-				else
-					a.colorbox({current: '{current} / {total}'});
+				a.colorbox({rel:rel, current: '{current} / {total}'});
+				// // store rel attributes
+				// if (rel)
+				// {
+				// 	if ($.inArray(rel, rels) == -1)
+				// 		rels.push(rel);
+				// }
+				// // init colorbox for links without rel
+				// else
+				// 	a.colorbox({current: '{current} / {total}'});
 			});
-			// links with rel attribute found
-			if (rels.length > 0)
-			{
-				// console.log(rels);
-				$.each(rels, function(index, rel){
-					var urls	= [];
-					$('[rel="'+rel+'"]').each(function(){
-						// console.log('links for rel="'+rel+'"');
-						var a	= $(this),
-							url	= a.attr('href');
-						if (url != '#' && url != '' && $.inArray(url, urls) == -1)
-						{
-							urls.push(url);
-							// console.log(url);
-							a.colorbox({rel:rel, current: '{current} / {total}'});
-						}
-					});
-				});
-			}
+			// // links with rel attribute found
+			// if (rels.length > 0)
+			// {
+			// 	// console.log(rels);
+			// 	$.each(rels, function(index, rel){
+			// 		var urls	= [];
+			// 		$('[rel="'+rel+'"]').each(function(){
+			// 			// console.log('links for rel="'+rel+'"');
+			// 			var a	= $(this),
+			// 				url	= a.attr('href');
+			// 			if (url != '#' && url != '' && $.inArray(url, urls) == -1)
+			// 			{
+			// 				urls.push(url);
+			// 				// console.log(url);
+			// 				a.colorbox({rel:rel, current: '{current} / {total}'});
+			// 			}
+			// 		});
+			// 	});
+			// }
 		}
 	},
     galleryPagination:	function(parent, item_selector){

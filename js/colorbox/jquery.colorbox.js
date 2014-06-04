@@ -305,27 +305,35 @@
 			$related = $(element);
 
 			index = 0;
-			
 			if (settings.rel !== 'nofollow') {
-
+				var urls	= [];
 				$related = $('.' + boxElement).filter(function () {
 					var data = $.data(this, colorbox),
 						relRelated;
 					if (data) {
 						relRelated =  $(this).data('rel') || data.rel || this.rel;
 					}
-
-					return (relRelated === settings.rel);
+					// unique url
+					if ($.inArray(this.href, urls) == -1)
+					{
+						urls.push(this.href);
+						return (relRelated === settings.rel);
+					}
+					return false;
 				});
-				// console.log($related);
 				index = $related.index(element);
-				
+			}
+			// links without rel
+			else
+			{
+				// index = $related.index(element);
 				// Check direct calls to Colorbox.
-				if (index === -1) {
+				// if (index === -1) {
 					$related = $related.add(element);
 					index = $related.length - 1;
-				}
+				// }
 			}
+			// console.log($related);
 			
 			$overlay.css({
 				opacity: parseFloat(settings.opacity),
