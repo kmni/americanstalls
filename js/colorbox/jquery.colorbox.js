@@ -307,12 +307,13 @@
 			index = 0;
 			if (settings.rel !== 'nofollow') {
 				var urls	= [];
-				$related = $('.' + boxElement).filter(function () {
+				$related = $('.' + boxElement + '[rel="'+settings.rel+'"]').filter(function () {
 					var data = $.data(this, colorbox),
 						relRelated;
 					if (data) {
 						relRelated =  $(this).data('rel') || data.rel || this.rel;
 					}
+
 					// unique url
 					if ($.inArray(this.href, urls) == -1)
 					{
@@ -321,6 +322,7 @@
 					}
 					return false;
 				});
+				// console.log($related);
 				index = $related.index(element);
 			}
 			// links without rel
