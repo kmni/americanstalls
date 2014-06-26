@@ -133,7 +133,7 @@ div.sideban.right img {margin: 0;}
 
 .home_text {background: #00664E url(../img/bg_home_text.jpg) 0 0 no-repeat; padding: 30px 2.222%;}
 .home_text h1 {font: normal 23px/27px Times, sans-serif; color: #e8e9d6; text-align: center; text-transform: none; padding: 0; margin: 0 0 2.222%;}
-.home_text p {font: normal 15px/30px Times, sans-serif; color: #e8e9d6; padding: 0 0 2.222% 0; margin: 0;}
+.home_text p {font: normal 18px/30px Times, sans-serif; color: #e8e9d6; padding: 0 0 2.222% 0; margin: 0;}
 .home_text p a {color: #e8e9d6; text-decoration: underline;}
 
 .text {position: relative; z-index: 1; clear: both; color: #f0ebd6; text-align: center; background: url(../img/bg_text.png) 0 0 repeat; padding: 18px;}
@@ -152,21 +152,22 @@ div.sideban.right img {margin: 0;}
 .text .col p {font: normal 16px/20px Times, sans-serif; color: #f0ebd6; text-align: center; padding: 0 20px; margin: 0;}
 .text .col .line {height: 3px; background: url(../img/about-us/bg_line_about.png) 0 0 repeat-x; margin: 9px 6px 10px;}
 
-.city-list {margin: 0 auto;}
-.city-list .state:last-child:nth-child(odd) {display:block;}
-.city-list .state {width:49.5%; display:inline-block;}
-.city-list .state h2 {font: normal 20px/18px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; margin-bottom: 2px; padding:10px;}
-.city-list .state ul {text-align:left; margin-left:10px;}
-.city-list .state ul li {font:normal 16px/20px Times, sans-serif; list-style:none;}
-.city-list .state ul li a {color: #F0EBD6; text-decoration: none;}
-.city-list .state ul li a:hover {text-decoration: underline;}
+.city-list {margin: 0 auto;columns: 2;-webkit-columns: 2;-moz-columns: 2; list-style:none;}
+.city-list li h2 {font: normal 20px/24px Times, sans-serif; color: #00694f; text-align: center; text-transform: uppercase; margin-bottom: 2px;}
+.city-list li {font: normal 20px/18px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; margin-bottom: 2px; padding:10px;}
+.city-list li ul {margin-left:0;}
+.city-list li ul li {font:normal 14px/18px Times, sans-serif; list-style:none;text-transform:none;padding:3px;}
+.city-list li ul li a {color: #F0EBD6; text-decoration: none;}
+.city-list li ul li a:hover {text-decoration: underline;}
+.city-list li ul li a:before {display:inline-block;width:14px;height:14px;margin-right:.3em;line-height:14px;vertical-align:text-top;background-image:url("../img/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat;margin-top:1px;background-image:url("../img/glyphicons-halflings-white.png");background-position:-120px -48px;content:" ";}
 
 .singlecol {text-align:left;}
 .singlecol h2 {font: normal 24px/28px Times, sans-serif; color: #f0ebd6; text-align: center; text-transform: uppercase; padding: 0 20px; margin: 0 0 2px;}
 .singlecol p {font: normal 16px/20px Times, sans-serif; color: #f0ebd6; text-align: center; padding: 0 20px; margin: 0;}
+.singlecol a {color:#00694f;}
 .singlecol .line {height: 3px; background: url(../img/about-us/bg_line_about.png) 0 0 repeat-x; margin: 9px 6px 10px;}
 
-.graphicdescript {margin-bottom:20px;border-bottom:2px ridge #504339}
+.graphicdescript {padding:20px 0;border-bottom:2px ridge #504339}
 .graphic img {width:100%;height:auto;margin:0 auto 10px auto; display:block;}
 .graphicdescription {}
 .graphicdescription h2 {text-align:left; padding: 0;}
@@ -217,11 +218,11 @@ div.sideban.right img {margin: 0;}
 .color_options .text h2 {font: normal 19px/23px Times, sans-serif; color: #f0ebd6; text-align: left; text-transform: uppercase; text-decoration: underline; padding: 0; margin: 0 0 8px 10px;}
 .color_options .text h3 {font: normal 16px/20px Times, sans-serif; color: #f0ebd6; text-align: left; text-transform: uppercase; padding: 0; margin: 0 0 10px 10px;}
 .color_options .options_wrap {display: table-cell; text-align: center; /*background: #221610; border-radius: 110px; padding: 10px;*/ margin: 0 0 16px;}
-.color_options .options_wrap a {display: block; float: left; width: 100%; max-width: 82px; background: #221610; padding: 10px 5px; margin: 0;}
+.color_options .options_wrap a {display: block; float: left; width: 100%; max-width: 82px; background: #221610; padding: 10px 5px; margin: 0;cursor:default;}
 .color_options .options_wrap a:first-child {border-radius: 50% 0 0 50%; padding-left: 10px;}
 .color_options .options_wrap a:last-child {border-radius: 0 50% 50% 0; padding-right: 10px;}
 .color_options .options_wrap img {display: block; vertical-align: baseline; width: 100%; max-width: 60px; height: auto; border: 11px solid #3c332e; border-radius: 50%; margin: 0;}
-.color_options .options_wrap a:hover img {border-color: #261a14;}
+.color_options .options_wrap a:hover img {border-color: #2b1d17;}
 .color_options img[class^=ribbon_] {position: absolute; top: 0; left: 4.222%; width: 23.444%; min-width: 124px; z-index: 3;}
 @media (max-width: 760px) {
 	.color_options .options_wrap a {max-width: 66px;}
@@ -329,10 +330,11 @@ div.sideban.right img {margin: 0;}
 .product_detail .headline a.back {display: block; float: left; width: 5.424%; min-width: 34px;}
 .product_detail .headline a.back img {max-width: 100%; height: auto;}
 .product_detail .headline h1 {float: left; clear: none; font: normal 24px/28px Times, sans-serif; color: #f0ebd6; text-transform: uppercase; padding: 1.2% 1.2% 1.2% 2%; margin: 0;}
-.product_detail .headline .available_colors {float: right; font: 400 1.0769em/1.2857em 'Open Sans', sans-serif; color: #301106; text-transform: uppercase; background: url(../img/bg_available_colors.png) 0 0 repeat-x; border-radius: 15px; box-shadow: 0 -4px 4px -4px black; padding: 4px 4px 4px 15px; margin-top: 8px;}
+.product_detail .headline .available_colors {float: right; font: 400 1.0769em/1.2857em 'Open Sans', sans-serif; color: #301106; text-transform: uppercase; background: url(../img/bg_available_colors.png) 0 0 repeat-x; border-radius: 15px; box-shadow: 0 -4px 4px -4px black; padding: 4px 4px 4px 15px; margin-top: 8px;margin-right:3px;}
 .product_detail .headline .available_colors span {float: right; margin: 1px 0 0 14px;}
 .product_detail .headline .available_colors span:first-child {float: left; margin-left: 0;}
 .product_detail .headline .available_colors a {display: block; float: left; width: 100%; max-width: 14px; background: #f0ebd6; box-shadow: 0 -2px 2px -2px black; padding: 4px 6px 4px 2px; margin-left: -4px;}
+.product_detail .headline .available_colors a:hover{cursor:default;}
 .product_detail .headline .available_colors a:first-child {border-radius: 11px 0 0 11px; padding-left: 4px;}
 .product_detail .headline .available_colors a:last-child {border-radius: 0 11px 11px 0; padding-right: 4px;}
 .product_detail .headline .available_colors img {display: block; vertical-align: baseline; width: 100%; max-width: 14px; height: auto; border-radius: 50%; padding: 0; margin: 0;}

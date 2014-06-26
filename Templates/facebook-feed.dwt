@@ -7,7 +7,9 @@
     <!-- TemplateEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="KMNI.com">
+    <link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" href="../favicon.ico">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -28,10 +30,10 @@
                 <a href="/" title=""><img src="../img/s.gif" alt="" /></a>
             </div>
             <div class="social">
-            	<a href="#" title="Facebook"><img src="../img/icon-fb-54x54.png" alt="Facebook"></a>
-            	<a href="#" title="Twitter"><img src="../img/icon-tw-54x54.png" alt="Twitter"></a>
-            	<a href="#" title="LinkedIn"><img src="../img/icon-linked-54x54.png" alt="LinkedIn"></a>
-            	<a href="#" title="Blogger"><img src="../img/icon-blogger-54x54.png" alt="Blogger"></a>
+            	<a href="https://www.facebook.com/AmericanStalls" title="Facebook" target="_blank"><img src="../img/icon-fb-54x54.png" alt="Facebook"></a>
+            	<a href="https://twitter.com/AmericanStalls" title="Twitter" target="_blank"><img src="../img/icon-tw-54x54.png" alt="Twitter"></a>
+            	<a href="https://www.linkedin.com/pub/american-stalls/3a/489/a83" title="LinkedIn" target="_blank"><img src="../img/icon-linked-54x54.png" alt="LinkedIn"></a>
+            	<a href="http://permanentstalls.blogspot.com/" title="Blogger" target="_blank"><img src="../img/icon-blogger-54x54.png" alt="Blogger"></a>
             </div> <!--// .social -->
             <div class="cleaner"></div>
             <div class="nav">
@@ -39,28 +41,30 @@
                     <option value="0">MENU</option>
 					<option value="./about-us.html">About us</option>
 					<option value="./testimonials.html">- Testimonials</option>
-					<option value="./our-partners.html">- Our Partners</option>
 					<option value="./our-pledge.html">- Our Pledge</option>
-					<option value="./products.html">Products</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./invincible-series.html">- Invincible Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
-					<option value="./racetrack-doors.html">- Racetrack Doors</option>
+                                                                                <option value="./our-partners.html">- Our Partners</option>
+					<option value="./products/">Products</option>
+					<option value="./products/classic-show-series/">- Classic Show Series</option>
+					<option value="./products/elite-show-series/">- Elite Show Series</option>
+					<option value="./products/elite-show-series/">- Signature Show Series</option>
+					<option value="./products/invincible-barn-series/">- Invincible Barn Series</option>
+					<option value="./products/western-barn-series/">- Western Barn Series</option>
+					<option value="./products/prestige-barn-series/">- Prestige Barn Series</option>
+					<option value="./products/half-racetrack-doors/">- Half Racetrack Doors</option>
+<option value="./products/full-racetrack-doors/">- Full Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./inventory.html">Current Inventory</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
-					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
+					<option value="./current-inventory/">Current Inventory</option>
+					<option value="./current-inventory/#classic-show-series">- Classic Show Series</option>
+					<option value="./current-inventory/#elite-show-series">- Elite Show Series</option>
+					<option value="./current-inventory/#half-racetrack-doors">- Half Racetrack Doors</option>
+					<option value="./current-inventory/#full-racetrack-doors">- Full Racetrack Doors</option>
 					<option value="./portfolio.html">Portfolio</option>
 					<option value="./videos.html">Videos</option>
-					<option value="./newsletters.html">Newsletters</option>
+					<option value="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001I3JWNluLlN4AoAB0JuVMk1RyeI959YX06qBVWze5fE_ev_btXY56gAVnmLIX2lMdhwJoZYHqoNbWqrmaoXZyuQI0_Hn9990f">Newsletters</option>
 					<option value="./facebook-feed.html">Facebook Feed</option>
-					<option value="./twitter.html">Twitter</option>
-					<option value="./instagram.html">Instagram</option>
-					<option value="./blog.html">Blog</option>
+					<option value="https://twitter.com/AmericanStalls">Twitter</option>
+					<option value="https://www.linkedin.com/pub/american-stalls/3a/489/a83">Linkedin</option>
+					<option value="http://permanentstalls.blogspot.com/">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
             </div>
@@ -69,31 +73,34 @@
                 	<a href="../about-us.html" title="About us">About us</a>
                 	<ul>
 						<li><a href="../testimonials.html" title="Testimonials">Testimonials</a></li>
-						<li><a href="../our-partners.html" title="Our Partners">Our Partners</a></li>
 						<li><a href="../our-pledge.html" title="Our Pledge">Our Pledge</a></li>
+<li><a href="../our-partners.html" title="Our Partners">Our Partners</a></li>
 					</ul>
                 </li>
 				<li>
-					<a href="../products.html" title="Products">Products</a>
+					<a href="../products/" title="Products">Products</a>
 					<ul>
-						<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-						<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-						<li><a href="../invincible-series.html" title="Invincible Series">Invincible Series</a></li>
-						<li><a href="../western-series.html" title="Western Series">Western Series</a></li>
-						<li><a href="../prestige-series.html" title="Prestige Series">Prestige Series</a></li>
-						<li><a href="../racetrack-doors.html" title="Racetrack Doors">Racetrack Doors</a></li>
+						<li><a href="../products/classic-show-series/" title="Classic Show Series">Classic Show Series</a></li>
+						<li><a href="../products/elite-show-series/" title="Elite Show Series">Elite Show Series</a></li>
+						<li><a href="../products/signature-show-series/" title="Signature Show Series">Signature Show Series</a></li>
+						<li><a href="../products/invincible-barn-series/" title="Invincible Barn Series">Invincible Barn Series</a></li>
+						<li><a href="../products/western-barn-series/" title="Western Barn Series">Western Barn Series</a></li>
+						<li><a href="../products/prestige-barn-series/" title="Prestige Barn Series">Prestige Barn Series</a></li>
+						<li><a href="../products/half-racetrack-doors/" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
+<li><a href="../products/full-racetrack-doors/" title="Full Racetrack Doors">Full Racetrack Doors</a></li>
 					</ul>
 				</li>
 				<li>
+
 					<a href="../color-options.html" title="Color options">Color options</a>
 				</li>
                 <li>
-                	<a href="../current-inventory.html" title="Current inventory">Current inventory</a>
+                	<a href="../current-inventory/" title="Current inventory">Current inventory</a>
                 	<ul>
-						<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-						<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-						<li><a href="../half-racetrack-doors.html" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
-						<li><a href="../full-racetrack-doors.html" title="Prestige Series">Full Racetrack Doors</a></li>
+						<li><a href="../current-inventory/#classic-show-series" title="Classic Show Series">Classic Show Series</a></li>
+						<li><a href="../current-inventory/#elite-show-series" title="Elite Show Series">Elite Show Series</a></li>
+						<li><a href="../current-inventory/#half-racetrack-doors" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
+						<li><a href="../current-inventory/#full-racetrack-doors" title="Prestige Series">Full Racetrack Doors</a></li>
 					</ul>
                 </li>
                 <li>
@@ -106,11 +113,11 @@
                 <li>
                 	<span>Social media</span>
                 	<ul>
-						<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
+						<li><a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001I3JWNluLlN4AoAB0JuVMk1RyeI959YX06qBVWze5fE_ev_btXY56gAVnmLIX2lMdhwJoZYHqoNbWqrmaoXZyuQI0_Hn9990f" target="_blank" title="Newsletters">Newsletters</a></li>
 						<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
 						<li><a href="../twitter.html" title="Twitter">Twitter</a></li>
-						<li><a href="../instagram.html" title="Instagram">Instagram</a></li>
-						<li><a href="../blog.html" title="Blog">Blog</a></li>
+						<li><a href="https://www.linkedin.com/pub/american-stalls/3a/489/a83" title="Linkedin">Linkedin</a></li>
+						<li><a href="http://permanentstalls.blogspot.com/" title="Blog">Blog</a></li>
 					</ul>
                 </li>
                 <li><a href="../contact-us.html" title="Contact us">Contact us</a></li>
@@ -121,8 +128,8 @@
 
     <div id="content">
         <div class="container">
-        	<div class="sideban"><a href="" title=""><img src="../img/banners/banner-01-120x749.jpg"></a></div>
-        	<div class="sideban right"><a href="" title=""><img src="../img/banners/banner-02-120x749.jpg"></a></div>
+        	<div class="sideban"><img src="../img/banners/banner-01-120x749.jpg"></div>
+        	<div class="sideban right"><img src="../img/banners/banner-02-120x749.jpg"></div>
 			<div class="contentcol">
             	
                 <div class="headline">
@@ -132,7 +139,7 @@
                 <div class="text">
                 	<!-- Facebook BEGIN -->
                     <ul id="facebook">
-                        <li class="loading"><img src="../img/ajax-loader.gif" alt="Loading ..." width="24" height="24"><br>Loading…</li>
+                        <li class="loading"><img src="../img/ajax-loader.gif" alt="Loading ..." width="24" height="24"><br>Loading&hellip;</li>
                     </ul>
                     <!-- Facebook END -->
                 </div> <!--// .text -->
@@ -142,16 +149,16 @@
 
     <div id="under_content">
     	<div class="container">
-    		<p><a href="" title="">Click here</a> to subscribe to our newsletter and receive updates & special offers</p>
+    		<p><a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001I3JWNluLlN4AoAB0JuVMk1RyeI959YX06qBVWze5fE_ev_btXY56gAVnmLIX2lMdhwJoZYHqoNbWqrmaoXZyuQI0_Hn9990f" title="" target="_blank">Click here</a> to subscribe to our newsletter and receive updates & special offers</p>
     	</div> <!--// .container -->
     </div> <!--// #under_content -->
 
     <div id="above_footer">
     	<div class="container">
     		<ul>
-    			<li><a href="" title="Request a free quote">Request a free quote</a></li>
-    			<li><a href="" title="Request a free catalog">Request a free catalog</a></li>
-    			<li class="wine"><a href="" title="Contact us">Contact us</a></li>
+    			<li><a href="../contact-us.html" title="Request a free quote">Request a free quote</a></li>
+    			<li><a href="../contact-us.html" title="Request a free catalog">Request a free catalog</a></li>
+    			<li class="wine"><a href="../contact-us.html" title="Contact us">Contact us</a></li>
     		</ul>
     	</div> <!--// .container -->
     </div> <!--// #under_content -->
@@ -163,28 +170,30 @@
 					<option value="0">MENU</option>
 					<option value="./about-us.html">About us</option>
 					<option value="./testimonials.html">- Testimonials</option>
-					<option value="./our-partners.html">- Our Partners</option>
 					<option value="./our-pledge.html">- Our Pledge</option>
-					<option value="./products.html">Products</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./invincible-series.html">- Invincible Series</option>
-					<option value="./western-series.html">- Western Series</option>
-					<option value="./prestige-series.html">- Prestige Series</option>
-					<option value="./racetrack-doors.html">- Racetrack Doors</option>
+                                                                                <option value="./our-partners.html">- Our Partners</option>
+					<option value="./products/">Products</option>
+					<option value="./products/classic-show-series/">- Classic Show Series</option>
+					<option value="./products/elite-show-series/">- Elite Show Series</option>
+					<option value="./products/elite-show-series/">- Signature Show Series</option>
+					<option value="./products/invincible-barn-series/">- Invincible Barn Series</option>
+					<option value="./products/western-barn-series/">- Western Barn Series</option>
+					<option value="./products/prestige-barn-series/">- Prestige Barn Series</option>
+					<option value="./products/half-racetrack-doors/">- Half Racetrack Doors</option>
+<option value="./products/full-racetrack-doors/">- Full Racetrack Doors</option>
 					<option value="./color-options.html">Color options</option>
-					<option value="./inventory.html">Current Inventory</option>
-					<option value="./classic-show-series.html">- Classic Show Series</option>
-					<option value="./elite-show-series.html">- Elite Show Series</option>
-					<option value="./half-racetrack-doors.html">- Half Racetrack Doors</option>
-					<option value="./full-racetrack-doors.html">- Full Racetrack Doors</option>
+					<option value="./current-inventory/">Current Inventory</option>
+					<option value="./current-inventory/#classic-show-series">- Classic Show Series</option>
+					<option value="./current-inventory/#elite-show-series">- Elite Show Series</option>
+					<option value="./current-inventory/#half-racetrack-doors">- Half Racetrack Doors</option>
+					<option value="./current-inventory/#full-racetrack-doors">- Full Racetrack Doors</option>
 					<option value="./portfolio.html">Portfolio</option>
 					<option value="./videos.html">Videos</option>
-					<option value="./newsletters.html">Newsletters</option>
+					<option value="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001I3JWNluLlN4AoAB0JuVMk1RyeI959YX06qBVWze5fE_ev_btXY56gAVnmLIX2lMdhwJoZYHqoNbWqrmaoXZyuQI0_Hn9990f">Newsletters</option>
 					<option value="./facebook-feed.html">Facebook Feed</option>
-					<option value="./twitter.html">Twitter</option>
-					<option value="./instagram.html">Instagram</option>
-					<option value="./blog.html">Blog</option>
+					<option value="https://twitter.com/AmericanStalls">Twitter</option>
+					<option value="https://www.linkedin.com/pub/american-stalls/3a/489/a83">Linkedin</option>
+					<option value="http://permanentstalls.blogspot.com/">Blog</option>
 					<option value="./contact-us.html">Contact Us</option>
                 </select>
                 <ul class="col1">
@@ -192,8 +201,8 @@
 	                	<a href="../about-us.html" title="About us">About us</a>
 	                	<ul>
 							<li><a href="../testimonials.html" title="Testimonials">Testimonials</a></li>
-							<li><a href="../our-partners.html" title="Our Partners">Our Partners</a></li>
 							<li><a href="../our-pledge.html" title="Our Pledge">Our Pledge</a></li>
+<li><a href="../our-partners.html" title="Our Partners">Our Partners</a></li>
 						</ul>
 	                </li>
 	                <li>
@@ -206,14 +215,16 @@
 				</ul>
 				<ul class="col2">
 					<li>
-						<a href="../products.html" title="Products">Products</a>
+						<a href="../products/" title="Products">Products</a>
 						<ul>
-							<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-							<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-							<li><a href="../invincible-series.html" title="Invincible Series">Invincible Series</a></li>
-							<li><a href="../western-series.html" title="Western Series">Western Series</a></li>
-							<li><a href="../prestige-series.html" title="Prestige Series">Prestige Series</a></li>
-							<li><a href="../racetrack-doors.html" title="Racetrack Doors">Racetrack Doors</a></li>
+							<li><a href="../products/classic-show-series/" title="Classic Show Series">Classic Show Series</a></li>
+							<li><a href="../products/elite-show-series/" title="Elite Show Series">Elite Show Series</a></li>
+						<li><a href="../products/signature-show-series/" title="Signature Show Series">Signature Show Series</a></li>
+							<li><a href="../products/invincible-barn-series/" title="Invincible Barn Series">Invincible Barn Series</a></li>
+							<li><a href="../products/western-barn-series/" title="Western Barn Series">Western Barn Series</a></li>
+							<li><a href="../products/prestige-barn-series/" title="Prestige Barn Series">Prestige Barn Series</a></li>
+							<li><a href="../products/half-racetrack-doors/" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
+<li><a href="../products/full-racetrack-doors/" title="Full Racetrack Doors">Full Racetrack Doors</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -221,21 +232,21 @@
 					<li>
 						<a href="../color-options.html" title="Color options">Color options</a>
 						<ul>
-							<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-							<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-							<li><a href="../western-series.html" title="Western Series">Western Series</a></li>
-							<li><a href="../prestige-series.html" title="Prestige Series">Prestige Series</a></li>
+							<li><a href="../color-options.html" title="Classic Show Series">Classic Show Series</a></li>
+							<li><a href="../color-options.html" title="Elite Show Series">Elite Show Series</a></li>
+							<li><a href="../color-options.html" title="Western Series">Western Series</a></li>
+							<li><a href="../color-options.html" title="Prestige Series">Prestige Series</a></li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="col4">
 	                <li>
-	                	<a href="../current-inventory.html" title="Current inventory">Current inventory</a>
+	                	<a href="../current-inventory/" title="Current inventory">Current inventory</a>
 	                	<ul>
-							<li><a href="../classic-show-series.html" title="Classic Show Series">Classic Show Series</a></li>
-							<li><a href="../elite-show-series.html" title="Elite Show Series">Elite Show Series</a></li>
-							<li><a href="../half-racetrack-doors.html" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
-							<li><a href="../full-racetrack-doors.html" title="Prestige Series">Full Racetrack Doors</a></li>
+							<li><a href="../current-inventory/#classic-show-series" title="Classic Show Series">Classic Show Series</a></li>
+							<li><a href="../current-inventory/#elite-show-series" title="Elite Show Series">Elite Show Series</a></li>
+							<li><a href="../current-inventory/#half-racetrack-doors" title="Half Racetrack Doors">Half Racetrack Doors</a></li>
+							<li><a href="../current-inventory/#full-racetrack-doors" title="Full Racetrack Doors">Full Racetrack Doors</a></li>
 						</ul>
 	                </li>
 				</ul>
@@ -243,11 +254,11 @@
 	                <li>
 	                	<span>Social media</span>
 	                	<ul>
-							<li><a href="../newsletters.html" title="Newsletters">Newsletters</a></li>
+							<li><a href="http://visitor.r20.constantcontact.com/manage/optin/ea?v=001I3JWNluLlN4AoAB0JuVMk1RyeI959YX06qBVWze5fE_ev_btXY56gAVnmLIX2lMdhwJoZYHqoNbWqrmaoXZyuQI0_Hn9990f" title="Newsletters" target="_blank">Newsletters</a></li>
 							<li><a href="../facebook-feed.html" title="Facebook Feed">Facebook Feed</a></li>
-							<li><a href="../twitter.html" title="Twitter">Twitter</a></li>
-							<li><a href="../instagram.html" title="Instagram">Instagram</a></li>
-							<li><a href="../blog.html" title="Blog">Blog</a></li>
+							<li><a href="https://twitter.com/AmericanStalls" title="Twitter" target="_blank">Twitter</a></li>
+							<li><a href="https://www.linkedin.com/pub/american-stalls/3a/489/a83" title="Linkedin" target="_blank">Linkedin</a></li>
+							<li><a href="http://permanentstalls.blogspot.com/" title="Blog" target="_blank">Blog</a></li>
 						</ul>
 	                </li>
 	            </ul>
@@ -304,5 +315,15 @@
         // "392120024178056|aqQUlwOblkyuLzKmxZm39SeBVck" is Facebook authentication token
         Social.facebook("AmericanStalls", "392120024178056|aqQUlwOblkyuLzKmxZm39SeBVck");
     </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50805184-2', 'americanstalls.com');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
