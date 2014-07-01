@@ -310,13 +310,16 @@ var hju	= {
 			links.each(function(){
 				var link	= $(this),
 					href	= link.attr('href');
+
 				urls.push(href);
 			});
 			$(urls).preload();
 			
 			links.on('click', function(){
 				var link	= $(this),
-					href	= link.attr('href');
+					href	= link.attr('href'),
+					large	= link.data('large') || href,
+					title	= link.attr('title') || '';
 				if (imagebox.find('img').length > 0)
 				{
 					var img	= imagebox.find('img');
@@ -328,6 +331,13 @@ var hju	= {
 							img.attr('src', href).fadeIn(300);
 						});
 					});
+				}
+				if (large && imagebox.find('a').length > 0)
+				{
+					var a	= imagebox.find('a');
+
+					a.attr('href', large).attr('title', title).addClass('colorbox');
+					hju.lightbox();
 				}
 				return false;
 			});
