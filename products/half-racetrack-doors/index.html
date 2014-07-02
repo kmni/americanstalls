@@ -313,7 +313,27 @@
 	<script src="../../js/bootstrap.min.js"></script>
 	<script src="../../js/colorbox/jquery.colorbox-min.js"></script>
 	<script src="../../js/hju.js"></script>
-	
+	<script type="text/javascript">
+	// Make ColorBox responsive
+	jQuery.colorbox.settings.maxWidth  = '95%';
+	jQuery.colorbox.settings.maxHeight = '95%';
+
+	// ColorBox resize function
+	var resizeTimer;
+	function resizeColorBox()
+	{
+		if (resizeTimer) clearTimeout(resizeTimer);
+		resizeTimer = setTimeout(function() {
+				if (jQuery('#cboxOverlay').is(':visible')) {
+						jQuery.colorbox.load(true);
+				}
+		}, 300);
+	}
+
+	// Resize ColorBox when resizing window or changing mobile device orientation
+	jQuery(window).resize(resizeColorBox);
+	window.addEventListener("orientationchange", resizeColorBox, false);
+	</script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
