@@ -301,18 +301,31 @@ var hju	= {
 	productGallery:	function(){
 		if ($('div.imagebox').length > 0 && $('div.thumbs a').length > 0)
 		{
-			var imagebox	= $('div.imagebox'),
+			var infobox		= $('div.infobox'),
+				secret_box	= $('<div class="secret_box"></div>'),
+				imagebox	= $('div.imagebox'),
 				links		= $('div.thumbs a'),
 				urls		= Array();
 
+			infobox.append(secret_box);
+			
 			// preload images
 			urls.push('/img/ajax-loader-small.gif');
+			
 			links.each(function(){
 				var link	= $(this),
-					href	= link.attr('href');
+					href	= link.attr('href'),
+					large	= link.data('large') || href;
 
 				urls.push(href);
+				if (large)
+				{
+					secret_box.append($('<a href="'+large+'" title="'+title+'" class="colorbox" rel="product_images">'+title+'</a>'));
+				}
 			});
+
+			hju.lightbox();
+
 			$(urls).preload();
 			
 			links.on('click', function(){
@@ -320,6 +333,7 @@ var hju	= {
 					href	= link.attr('href'),
 					large	= link.data('large') || href,
 					title	= link.attr('title') || '';
+
 				if (imagebox.find('img').length > 0)
 				{
 					var img	= imagebox.find('img');
@@ -332,11 +346,25 @@ var hju	= {
 						});
 					});
 				}
-				if (large && imagebox.find('a').length > 0)
+				if (/*large && */imagebox.find('a').length > 0)
 				{
 					var a	= imagebox.find('a');
+					a/*.attr('href', large)*/.attr('title', title);
+					
+					secret_box.empty().append($('<a href="'+large+'" title="'+title+'" class="colorbox" rel="product_images">'+title+'</a>'));
 
-					a.attr('href', large).attr('title', title).addClass('colorbox');
+					links.each(function(){
+						var l_link	= $(this),
+							l_href	= l_link.attr('href'),
+							l_large	= l_link.data('large') || l_href,
+							l_title	= l_link.attr('title') || '';
+
+						if (l_large != large)
+						{
+							secret_box.append($('<a href="'+l_large+'" title="'+l_title+'" class="colorbox" rel="product_images">'+l_title+'</a>'));
+						}
+					});
+
 					hju.lightbox();
 				}
 				return false;

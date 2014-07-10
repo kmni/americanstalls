@@ -131,7 +131,7 @@
 			<div class="sideban right"><img src="../img/banners/banner-02-120x749.jpg"></div>
 			<div class="contentcol">
 				
-				<div class="imagebox"><!-- TemplateBeginEditable name="imagebox" --><a href="" title=""><img src="../img/products/product-01/product-01-406x305.jpg" alt=""></a><!-- TemplateEndEditable --></div>
+				<div class="imagebox"><!-- TemplateBeginEditable name="imagebox" --><a href="#product_images" title="" class="colorbox"><img src="../img/products/product-01/product-01-406x305.jpg" alt=""></a><!-- TemplateEndEditable --></div>
 				<div class="infobox">
 					<a class="quote" href="../contact-us.html" title=""><span>Get a quote</span></a>
 					<div class="thumbs"><!-- TemplateBeginEditable name="thumbs" --><a href="../img/products/product-01/product-01-406x305.jpg" title="" class="active" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a> <a href="../img/products/product-01/product-01-406x305.jpg" title="" data-large=""><img src="../img/products/product-01/01-96x73.jpg" alt=""><i></i></a><!-- TemplateEndEditable -->
@@ -294,7 +294,7 @@
 
 	<script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/colorbox/jquery.colorbox-min.js"></script>
+	<script src="../js/colorbox/jquery.colorbox.js"></script>
 	<script src="../js/hju.js"></script>
 	<script type="text/javascript">
 	// Make ColorBox responsive
